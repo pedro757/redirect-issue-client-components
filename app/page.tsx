@@ -1,4 +1,11 @@
-/** Add your relevant code here for the issue to reproduce */
+import ClientComponent from "./clientComponent";
+
 export default function Home() {
-  return <div>Home</div>;
+  return (
+    <div>
+      Home PAge
+      <br />
+      <ClientComponent />
+    </div>
+  );
 }

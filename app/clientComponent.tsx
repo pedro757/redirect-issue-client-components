@@ -3,5 +3,5 @@
 import { redirect } from "next/navigation";
 
 export default function ClientComponent() {
-  return <button onClick={() => redirect("/")}>Redirect</button>;
+  return <button onClick={() => redirect("/otherpage")}>Redirect</button>;
 }
